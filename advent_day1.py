@@ -1,7 +1,7 @@
 import numpy as np
 
 def parseCals():
-    fp = r"C:\Users\E1413175\Desktop\Misc\Python\adventd1.txt"
+    fp = r".\adventd1.txt"
     file = open(fp, "r")
     cals = file.readlines()
     maxes = [0,0,0]
