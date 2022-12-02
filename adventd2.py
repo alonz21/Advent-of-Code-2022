@@ -1,5 +1,5 @@
 def parseFile():
-    fp = r"C:\Users\E1413175\Desktop\Misc\Python\adventd2.txt"
+    fp = r".\adventd2.txt"
     file = open(fp, "r")
     games = file.readlines()
     #calcScores2(games)
