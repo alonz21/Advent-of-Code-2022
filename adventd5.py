@@ -1,5 +1,5 @@
 def parseFile():
-    fp = r"C:\Users\E1413175\Desktop\Misc\Python\adventd5.txt"
+    fp = r"\adventd5.txt"
     file = open(fp, "r")
     crates = []
     for line in file:
