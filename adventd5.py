@@ -12,8 +12,7 @@ def makeStacks(crates):
     for line in crates:
         offset = 0
         count = 0
-        for i in range(len(line)):
-            chr = line[i]
+        for chr in line:
             if chr == '1':
                 #moveCrates(stacks, crates)
                 moveCrates2(stacks, crates)
