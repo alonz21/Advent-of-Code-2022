@@ -1,7 +1,7 @@
 import numpy as np
 
 def parseFile():
-    fp = r"C:\Users\E1413175\Desktop\Misc\Python\adventd8.txt"
+    fp = r".\adventd8.txt"
     file = open(fp, "r")
     temp = file.readlines()
     trees = []
